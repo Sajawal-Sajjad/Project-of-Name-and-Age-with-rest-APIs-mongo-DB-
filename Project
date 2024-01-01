@@ -126,7 +126,7 @@ entry_salary = tk.Entry(root)
 submit_button = tk.Button(root, text="Submit", command=submit_form)
 update_button = tk.Button(root, text="Update", command=update_record)
 delete_button = tk.Button(root, text="Delete", command=delete_record)
-
+load_button = tk.Button(root, text="Load", command=load_record)
 # Create TreeView
 tree = ttk.Treeview(root, columns=("Employee ID", "Employee Name", "Mobile", "Salary"), show="headings")
 tree.heading("Employee ID", text="Employee ID")
